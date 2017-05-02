@@ -91,7 +91,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\UI\IGvrGazeResponder.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrFPS.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
-     <Compile Include="Assets\Udacity\Scripts\ChestLid.cs" />
+     <Compile Include="Assets\Udacity\Scripts\ChestTop.cs" />
      <Compile Include="Assets\Udacity\Scripts\Coin.cs" />
      <Compile Include="Assets\Udacity\Scripts\DieAfterSeconds.cs" />
      <Compile Include="Assets\Udacity\Scripts\Door.cs" />

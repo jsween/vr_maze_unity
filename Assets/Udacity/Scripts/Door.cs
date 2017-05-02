@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class Door : MonoBehaviour 
 {
+	public ChestTop chestTop;
 	public AudioClip unlockedDoorSound;
 	public AudioClip lockedDoorSound;
 	private AudioSource doorSoundPlayer;
@@ -37,9 +38,10 @@ public class Door : MonoBehaviour
 			opening = true;
 			doorSoundPlayer.clip = unlockedDoorSound;
 			doorSoundPlayer.Play ();
+			chestTop.isDoorOpened = true;
+		} else {
 			// (optionally) Else
 			// Play a sound to indicate the door is locked
-		} else {
 			doorSoundPlayer.clip = lockedDoorSound;
 			doorSoundPlayer.Play ();
 		}
